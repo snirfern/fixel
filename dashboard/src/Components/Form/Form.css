@@ -1,0 +1,44 @@
+.form_container{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:center;
+
+    
+}
+form{
+  border: 2px solid #2196f352;
+  padding: 20px;
+}
+.form_footer
+{
+  font-size: 15px;
+  padding: 10px 0px;
+  text-align: right;
+  color: #FF9800;
+}
+input{width:100%;}
+.form_title{
+    margin-top:5px;
+    color: #FF9800;
+    font-weight: unset;
+}
+
+.form_logo{color:green}
+.form_logo_rotate{
+    animation: spin360 3s ;
+    color:green
+}
+@keyframes spin360{
+    from {
+      -moz-transform: rotateY(0deg);
+      -ms-transform: rotateY(0deg);
+      transform: rotateY(0deg);
+    }
+    
+    to {
+      -moz-transform: rotateY(-360deg);
+      -ms-transform: rotateY(-360deg);
+      transform: rotateY(-360deg);
+    }
+  }

@@ -1,0 +1,41 @@
+ input:focus{
+    outline: none;
+
+}
+input{   
+    padding:5px ;
+    border:0px;
+}
+.form_error_msg{
+    min-height:15px
+}
+
+.input_title{
+    text-align:left;
+    padding-bottom:5px;
+    position: absolute;
+    margin-left: 5px;
+    margin-top: 10px;
+
+
+}
+.activated_input_title{
+color:rgb(33, 150, 243);
+    margin-top:-20px;
+margin-left:-1px;
+}
+.custom_input_wrapper{
+    padding:5px;
+    display:flex;
+    flex-direction:row;
+
+}
+
+
+.form_errorMsg{
+    min-height:20px;
+    text-align: left;
+    padding: 5px 0px;
+    font-family: tahoma;
+    font-size: 1em;
+}

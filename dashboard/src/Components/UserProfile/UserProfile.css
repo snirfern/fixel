@@ -1,0 +1,61 @@
+
+.user_profile_container{
+    position: absolute;
+    top:20%;
+    left:50%;
+    transform: translate(-50%,-20%);
+    max-width:300px;
+
+
+}
+.file_upload{
+    min-height:100px;
+}
+.user_profile_user_name{
+    font-size:20px;
+}
+.user_profile_welcome{
+    font-size:25px;
+    font-weight:400
+
+}
+.user_profile_toast{
+    position: absolute;
+    bottom:10px;
+    right:50%;
+    color:red;
+    text-align:center;
+}
+
+.custom_button_up{
+}
+.user_bio
+{
+
+    text-align:left;
+    padding:10px;
+    min-height:300px;height:300px;
+}
+.user_profile_text_area{
+
+    width: 100%;
+    min-height: 300px;
+    border:none;
+}
+.user_image{width:100%;height:180px;max-height:180px}
+.user_welcome{
+    text-align:center;
+}
+
+.image_edit_icon{
+    text-align:right;
+    padding:5px;
+    
+}
+.image_edit_icon:hover{
+    color:blue;
+}
+
+.img:hover .image_edit_icon{
+ visibility: visible;
+}

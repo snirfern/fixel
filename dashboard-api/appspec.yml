@@ -1,0 +1,24 @@
+version: 0.0
+os: linux
+files:
+  - source: /
+    destination: /usr/fixel/dashboard-api
+    overwrite: false
+permissions:
+  - object: /usr/fixel/dashboard-api
+    pattern: "*.sh"
+    owner: root
+    group: root
+    mode: 755
+    type:
+      - file
+hooks:
+  BeforeInstall:
+    - location: scripts/app/before_install.sh
+      timeout: 180
+  AfterInstall:
+    - location: scripts/app/after_install.sh
+      timeout: 600
+  ApplicationStart:
+    - location: scripts/app/app_start.sh
+      timeout: 180
